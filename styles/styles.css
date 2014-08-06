@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+* {font-family: sans-serif;}
+body {
+	margin:0;
+	padding:0;
+	background-image:url(../images/background.gif);
+	background-repeat: repeat-y;
+	background-position: 22%;
+}
+header {
+  width: 100%;
+  overflow: auto;
+  background-color: #B7B7BA;
+}
+h1 {
+	text-align: center;
+  	font-family: 'Playfair Display SC', serif;
+  	font-weight: 700;
+	color: #A7FFF9;
+	text-decoration: none;
+	text-shadow:
+			-.05em .05em .05em #646466,
+			.03em .03em .05em white;
+}
+nav {
+  width: 100%;
+  overflow: auto;
+}
+aside {
+  list-style-type:none;
+  margin:0;
+  padding:0 0 0 10%;
+  float: left;
+  width: 22%;
+  padding: 40px 0 3150px 3%;
+}
+nav li { 
+  padding:10px 20px 10px 0;
+  width: 60%;
+  text-align: left;
+}
+nav a {
+  color: #A7FFF9;
+  text-decoration: none;}
+
+div a {
+	color: #B7B7BA;
+    text-decoration: none;
+}
+div p {   
+	max-width: 600px;
+}
+blockquote {  
+	max-width: 500px;
+}
+article {  
+	max-width: 600px;
+}
+
+div {
+	float: right;
+  	width: 65%;
+  	overflow: auto;
+  	padding: 5%;
+  	line-height: 1.5;
+}
+dl{
+  list-style-type:none;
+  max-width: 600px;
+}
+h2 {
+	text-align: center;
+  	padding: .25px 30px 10px;
+  	font-family: 'Playfair Display SC', serif;
+  	font-weight: 400;
+  	max-width: 500px;
+}
+h4 {
+	max-width: 500px;
+}
+footer {
+  width: 100%;
+  float: right;
+}
