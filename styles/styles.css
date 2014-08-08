@@ -17,7 +17,7 @@ h1 {
 	text-align: center;
   	font-family: 'Playfair Display SC', serif;
   	font-weight: 700;
-	color: #A7FFF9;
+	color: #c8fced;
 	text-decoration: none;
 	text-shadow:
 			-.05em .05em .05em #646466,
@@ -41,11 +41,11 @@ nav li {
   text-align: left;
 }
 nav a {
-  color: #A7FFF9;
+  color: #c8fced;
   text-decoration: none;}
 
 div a {
-	color: #B7B7BA;
+	color: #646466;
     text-decoration: none;
 }
 div p {   
@@ -65,7 +65,7 @@ div {
   	padding: 5%;
   	line-height: 1.5;
 }
-dl{
+ul  {
   list-style-type:none;
   max-width: 600px;
 }
@@ -80,6 +80,12 @@ h4 {
 	max-width: 500px;
 }
 footer {
-  width: 100%;
   float: right;
+  width: 100%;
+  text-align: center;
+}
+img {
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:50px;
 }
