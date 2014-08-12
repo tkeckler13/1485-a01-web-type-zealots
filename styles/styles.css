@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-* {font-family: sans-serif;}
 body {
 	margin:0;
 	padding:0;
@@ -15,13 +14,10 @@ header {
 }
 h1 {
 	text-align: center;
-  	font-family: 'Playfair Display SC', serif;
+  	font-family: 'Ubuntu', san-serif;
   	font-weight: 700;
 	color: #c8fced;
 	text-decoration: none;
-	text-shadow:
-			-.05em .05em .05em #646466,
-			.03em .03em .05em white;
 }
 nav {
   width: 100%;
@@ -29,6 +25,7 @@ nav {
 }
 aside {
   list-style-type:none;
+  font-family: 'Ubuntu', san-serif;
   margin:0;
   padding:0 0 0 10%;
   float: left;
@@ -36,7 +33,7 @@ aside {
   padding: 40px 0 3150px 3%;
 }
 nav li { 
-  padding:10px 20px 10px 0;
+  padding:25px 20px 10px 5px;
   width: 60%;
   text-align: left;
 }
@@ -63,7 +60,8 @@ div {
   	width: 65%;
   	overflow: auto;
   	padding: 5%;
-  	line-height: 1.5;
+  	line-height: 1.6;
+	font-family: 'Lora', serif;
 }
 ul  {
   list-style-type:none;
@@ -72,7 +70,7 @@ ul  {
 h2 {
 	text-align: center;
   	padding: .25px 30px 10px;
-  	font-family: 'Playfair Display SC', serif;
+  	font-family: 'Ubuntu', san-serif;
   	font-weight: 400;
   	max-width: 500px;
 }
